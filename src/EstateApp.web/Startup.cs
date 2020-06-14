@@ -1,3 +1,4 @@
+using System.Transactions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,11 @@ namespace EstateApp.web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContextPool<AuthenticationDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("AuthenticationConnection")));
+
+            services.AddDbContextPool<ApplicationDbContext>(options => 
+            options.UseSqlServer(Configuration.GetConnectionString("ApplicationConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
