@@ -1,7 +1,7 @@
 using System;
 
 
-namespace EHouseApp.Data.Entities
+namespace EstateApp.Data.Entities
 {
     public class Property :BaseEntity
     {

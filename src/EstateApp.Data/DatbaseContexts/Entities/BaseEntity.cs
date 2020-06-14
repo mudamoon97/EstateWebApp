@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EHouseApp.Data.Entities
+namespace EstateApp.Data.Entities
 {
     public abstract class BaseEntity
     {

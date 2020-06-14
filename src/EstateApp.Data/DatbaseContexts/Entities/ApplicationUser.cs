@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace EHouseApp.Data.Entities
+namespace EstateApp.Data.Entities
 {
     public class ApplicationUser : IdentityUser
     {

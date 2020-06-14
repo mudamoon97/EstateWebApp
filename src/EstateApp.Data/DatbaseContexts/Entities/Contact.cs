@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace EHouseApp.Data.Entities
+namespace EstateApp.Data.Entities
 {
     public class Contact :BaseEntity
     {

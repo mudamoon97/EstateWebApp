@@ -1,8 +1,7 @@
-using EHouseApp.Data.Entities;
+using EstateApp.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
-
-namespace EHouseApp.Data.DatabaseContexts.ApplicationDbContext
+namespace EstateApp.Data.DatabaseContexts.ApplicationDbContext
 {
     public class ApplicationDbContext : DbContext
     {
